@@ -63,7 +63,6 @@ smart-open==1.9.0
 spacy==2.2.4
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
 srsly==1.0.2
-TBB==0.1
 thinc==7.4.0
 toolz==0.10.0
 tornado==6.0.4
