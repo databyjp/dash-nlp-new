@@ -731,7 +731,7 @@ def comp_bigram_comparisons(comp_first, comp_second):
     temp_df = bigram_df[bigram_df.company.isin(comp_list)]
     temp_df.loc[temp_df.company == comp_list[-1], 'value'] = -temp_df[temp_df.company == comp_list[-1]].value.values
 
-    fig = px.bar(temp_df, title='Comparision: ' + comp_first + ' | ' + comp_second, x='ngram', y='value'
+    fig = px.bar(temp_df, title='Comparison: ' + comp_first + ' | ' + comp_second, x='ngram', y='value'
                  , color='company', template='plotly_white', color_discrete_sequence=px.colors.qualitative.Bold
                  , labels={'company': 'Company:', 'ngram': 'N-Gram'}, hover_data='')
     fig.update_layout(legend=dict(x=0.1, y=1.1), legend_orientation="h")
