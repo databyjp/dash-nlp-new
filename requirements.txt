@@ -38,7 +38,7 @@ msgpack==0.6.1
 msgpack-numpy==0.4.3.2
 murmurhash==1.0.2
 nltk==3.4.5
-numpy==1.15.4
+numpy==1.22.0
 olefile==0.46
 pandas==1.0.1
 Pillow==8.1.1
